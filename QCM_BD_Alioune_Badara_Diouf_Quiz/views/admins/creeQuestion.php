@@ -72,6 +72,9 @@
 					data : $('#form_question').serialize(),
 					success : function(datas){
 						console.log(datas);
+                        alert("Creation reussit !!!");
+                            location.reload(true);
+                        
 					},
 					complete: function(xmlHttp) {
                     }
